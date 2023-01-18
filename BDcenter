@@ -1,0 +1,4 @@
+#!/bin/bash
+                                                   
+# Open a new terminal and execute commands
+x-terminal-emulator -e "cd /home/luna.kuleuven.be/u0128401/BDcenter/bdc_scripts; bash bdc.sh; cd ~; bash"
