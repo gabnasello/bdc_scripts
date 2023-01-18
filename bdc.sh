@@ -6,13 +6,10 @@
 DOCKERIMAGES='
 - datascience-env     \n
 - sc-env      \n
-- microct-env     \n
+- image3D-env     \n
 - flowcyto-env        \n
 - commbini-env       \n
 '
-
-cd /home/luna.kuleuven.be/u0128401/BDcenter/bdc_scripts
-cat ./bdc_ascii.txt;
 
 MESSAGE="\nHello $USER, welcome to the Biomedical Data Center!\n"
 echo -e $MESSAGE
