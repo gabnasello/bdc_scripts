@@ -1,6 +1,10 @@
 #!/bin/bash
 
 case "$1" in
+    "commbini-env")
+     cd $HOME/BDcenter/$1
+     bash end-docker.sh
+     ;;
     "datascience-env")
      cd $HOME/BDcenter/$1
      bash end-docker.sh
