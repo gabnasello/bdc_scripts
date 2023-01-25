@@ -4,11 +4,12 @@
 #x-terminal-emulator -e "cat bdc_scripts/bdc_ascii.txt; echo $MESSAGE;bash"
 
 DOCKERIMAGES='
-- datascience-env     \n
-- sc-env      \n
-- image3d-env     \n
-- flowcyto-env        \n
 - commbini-env       \n
+- datascience-env     \n
+- flowcyto-env        \n
+- image3d-env     \n
+- sc-env      \n
+- slicer-env       \n
 '
 
 MESSAGE="\nHello $USER, welcome to the Biomedical Data Center!\n"
