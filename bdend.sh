@@ -9,6 +9,10 @@ case "$1" in
      cd $HOME/BDcenter/$1
      bash end-docker.sh
      ;;
+    "fiji-env")
+     cd $HOME/BDcenter/$1
+     bash end-docker.sh
+     ;;
     "flowcyto-env")
      cd $HOME/BDcenter/$1
      bash end-docker.sh

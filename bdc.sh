@@ -6,6 +6,7 @@
 DOCKERIMAGES='
 - commbini-env       \n
 - datascience-env     \n
+- fiji-env        \n
 - flowcyto-env        \n
 - image3d-env     \n
 - sc-env      \n
