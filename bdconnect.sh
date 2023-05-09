@@ -21,6 +21,10 @@ case "$1" in
      cd $HOME/BDcenter/$1
      bash connect-docker.sh
      ;;
+    "sc-r-env")
+     cd $HOME/BDcenter/$1
+     bash connect-docker.sh
+     ;;
     "slicer-env")
      cd $HOME/BDcenter/$1
      bash connect-docker.sh
