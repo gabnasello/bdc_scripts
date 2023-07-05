@@ -15,7 +15,7 @@ case "$1" in
      ;;     
     "flowcyto-env")
      cd $HOME/BDcenter/$1
-     bash start-docker.sh
+     bash start_singularity.sh
      ;;
     "image3d-env")
      cd $HOME/BDcenter/$1
