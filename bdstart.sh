@@ -7,7 +7,7 @@ case "$1" in
      ;;
     "datascience-env")
      cd $HOME/BDcenter/$1
-     bash start-docker.sh
+     bash start_singularity.sh
      ;;
     "fiji-env")
      cd $HOME/BDcenter/$1
@@ -21,6 +21,10 @@ case "$1" in
      cd $HOME/BDcenter/$1
      bash start-docker.sh
      ;;
+    "napari-env")
+     cd $HOME/BDcenter/$1
+     bash start_singularity.sh
+     ;;
     "sc-env")
      cd $HOME/BDcenter/$1
      bash start-docker.sh
@@ -31,7 +35,7 @@ case "$1" in
      ;;
     "slicer-env")
      cd $HOME/BDcenter/$1
-     bash start-docker.sh
+     bash start_singularity.sh
      ;;
     *)
      MESSAGE="\n    ERROR - The Docker Image '$1' is not available!\n\n     Type 'bdc' for the list of all Docker Images\n"
