@@ -1,6 +1,6 @@
 # Biomedical Data Center Scripts
 
-```install_bdc_commands.sh``` makes bdc commands available for all users
+```install_bdc_commands.sh``` makes bdc commands available for all users. You need sudo priviledges to make it available to all users.
 
 The commands:
 
