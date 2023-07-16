@@ -8,8 +8,9 @@ DOCKERIMAGES='
 - datascience-env     \n
 - fiji-env        \n
 - flowcyto-env        \n
-- image3d-env     \n
+- napari-env     \n
 - sc-env      \n
+- sc-py-env      \n
 - slicer-env       \n
 '
 
@@ -17,9 +18,9 @@ MESSAGE="\nHello $USER, welcome to the Biomedical Data Center!\n"
 echo -e $MESSAGE
 
 
-MESSAGE="\nRun the commands 'bdstart', 'bdconnect' and 'bdend' to interact with the Docker Images.\n"
+MESSAGE="\nRun the command 'bdstart' to start the containers.\n"
 echo -e $MESSAGE
-echo -e "List of available Docker Images:\n"
+echo -e "List of available Images:\n"
 # The '' adds a bit of space for the first row of the Docker Image list
 echo -e ''$DOCKERIMAGES
 
