@@ -23,7 +23,7 @@ case "$1" in
      ;;
     "napari-env")
      cd $HOME/BDcenter/$1
-     bash start_singularity.sh
+     bash start-docker.sh
      ;;
     "sc-env")
      cd $HOME/BDcenter/$1
@@ -35,7 +35,7 @@ case "$1" in
      ;;
     "slicer-env")
      cd $HOME/BDcenter/$1
-     bash start_singularity.sh
+     bash start-docker.sh
      ;;
     *)
      MESSAGE="\n    ERROR - The Docker Image '$1' is not available!\n\n     Type 'bdc' for the list of all Docker Images\n"
