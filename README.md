@@ -6,8 +6,6 @@ The commands:
 
 ```
 source /usr/bin/bdstart-completion.bash
-source /usr/bin/bdconnect-completion.bash
-source /usr/bin/bdend-completion.bash
 ```
 
 Must be added to ```/etc/bash.bashrc```
