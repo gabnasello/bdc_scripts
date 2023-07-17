@@ -9,8 +9,8 @@ DOCKERIMAGES='
 - fiji-env        \n
 - flowcyto-env        \n
 - napari-env     \n
-- sc-env      \n
 - sc-py-env      \n
+- sc-r-env      \n
 - slicer-env       \n
 '
 

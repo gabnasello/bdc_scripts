@@ -21,13 +21,13 @@ case "$1" in
      cd $HOME/BDcenter/$1
      bash start-docker.sh
      ;;
-    "sc-env")
-     cd $HOME/BDcenter/$1
-     bash start-docker.sh
-     ;;
     "sc-py-env")
      cd $HOME/BDcenter/$1
-     bash start-docker.sh
+     bash start_singularity.sh
+     ;;
+    "sc-r-env")
+     cd $HOME/BDcenter/$1
+     bash start_singularity.sh
      ;;
     "slicer-env")
      cd $HOME/BDcenter/$1
