@@ -21,6 +21,10 @@ case "$1" in
      cd $HOME/BDcenter/$1
      bash start-docker.sh
      ;;
+    "paraview-env")
+     cd $HOME/BDcenter/$1
+     bash start-docker.sh
+     ;;
     "sc-py-env")
      cd $HOME/BDcenter/$1
      bash start_singularity.sh
