@@ -27,7 +27,7 @@ case "$1" in
      ;;
     "sc-py-env")
      cd $HOME/BDcenter/$1
-     bash start_singularity.sh
+     bash start-env.sh
      ;;
     "sc-r-env")
      cd $HOME/BDcenter/$1
