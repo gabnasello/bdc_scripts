@@ -11,7 +11,7 @@ case "$1" in
      ;;
     "fiji-env")
      cd $HOME/BDcenter/$1
-     bash start-docker.sh
+     bash start-env.sh
      ;;     
     "flowcyto-env")
      cd $HOME/BDcenter/$1
