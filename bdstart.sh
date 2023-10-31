@@ -15,7 +15,7 @@ case "$1" in
      ;;     
     "flowcyto-env")
      cd $HOME/BDcenter/$1
-     bash start_singularity.sh
+     bash start-env.sh
      ;;
     "napari-env")
      cd $HOME/BDcenter/$1
