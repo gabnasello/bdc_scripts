@@ -6,11 +6,13 @@
 DOCKERIMAGES='
 - commbini-env       \n
 - datascience-env     \n
+- datascience-env-gpu     \n
 - fiji-env        \n
 - flowcyto-env        \n
 - napari-env     \n
 - paraview-env     \n
 - sc-py-env      \n
+- sc-py-env-gpu      \n
 - sc-r-env      \n
 - slicer-env       \n
 '

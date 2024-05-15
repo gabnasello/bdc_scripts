@@ -9,6 +9,10 @@ case "$1" in
      cd $HOME/BDcenter/$1
      bash start-env.sh
      ;;
+    "datascience-env-gpu")
+     cd $HOME/BDcenter/$1
+     bash start-env.sh
+     ;;
     "fiji-env")
      cd $HOME/BDcenter/$1
      bash start-env.sh
@@ -26,6 +30,10 @@ case "$1" in
      bash start-env.sh
      ;;
     "sc-py-env")
+     cd $HOME/BDcenter/$1
+     bash start-env.sh
+     ;;
+    "sc-py-env-gpu")
      cd $HOME/BDcenter/$1
      bash start-env.sh
      ;;
