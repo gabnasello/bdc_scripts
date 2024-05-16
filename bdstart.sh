@@ -39,7 +39,7 @@ case "$1" in
      ;;
     "sc-r-env")
      cd $HOME/BDcenter/$1
-     bash start_singularity.sh
+     bash start-env.sh
      ;;
     "slicer-env")
      cd $HOME/BDcenter/$1
