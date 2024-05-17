@@ -6,6 +6,7 @@ The commands:
 
 ```
 source /usr/bin/bdstart-completion.bash
+bdc
 ```
 
 Must be added to ```/etc/bash.bashrc```
