@@ -29,6 +29,10 @@ case "$1" in
      cd $HOME/BDcenter/$1
      bash start-env.sh
      ;;
+    "sc-env")
+     cd $HOME/BDcenter/$1
+     bash start-env.sh
+     ;;
     "sc-py-env")
      cd $HOME/BDcenter/$1
      bash start-env.sh

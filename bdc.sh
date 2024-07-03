@@ -11,6 +11,7 @@ DOCKERIMAGES='
 - flowcyto-env        \n
 - napari-env     \n
 - paraview-env     \n
+- sc-env      \n
 - sc-py-env      \n
 - sc-py-env-gpu      \n
 - sc-r-env      \n
